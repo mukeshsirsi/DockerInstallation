@@ -1,4 +1,4 @@
-FROM amazonlinux
+FROM docker
 RUN sudo yum update
 RUN sudo yum install docker
 RUN sudo service docker start
