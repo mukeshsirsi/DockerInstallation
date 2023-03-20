@@ -1,4 +1,4 @@
-FROM docker
+FROM Docker
 RUN sudo yum update
 RUN sudo yum install docker
 RUN sudo service docker start
