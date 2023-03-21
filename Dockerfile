@@ -1,4 +1,4 @@
-RUN docker pull jenkins
+FROM docker pull ubuntu
 RUN sudo yum update
 RUN sudo yum install docker
 RUN sudo service docker start
