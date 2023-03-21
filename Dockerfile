@@ -1,4 +1,4 @@
-RUN sudo docker run -it ubuntu /bin/bash
+FROM ubuntu
 RUN sudo yum update
 RUN sudo yum install docker
 RUN sudo service docker start
